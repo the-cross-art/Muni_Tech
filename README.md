@@ -1,4 +1,8 @@
 # Muni_Tech
+
+![ezgif com-optimize](https://user-images.githubusercontent.com/63959831/88054917-c41ef300-cb7b-11ea-80ae-f660e9b98347.gif)
+
+
 The whole procedure of complaining about a particular issue and then resolution of the same by the Municipality is quite hectic and complex. 
 In order to speed up this process and make things transparent we have developed our Web Application Muni-Tech.
 Through this platform any individual can just upload the picture of a place which is poorly maintained and not been taken care of, leading to it's detrimental condition.
