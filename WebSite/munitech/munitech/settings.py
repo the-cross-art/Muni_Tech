@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+from .secretkey import secretkey
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,11 +21,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'co98enw(hm_hubo@4^*c3gr@bybjno1qcf!(au%%-5vz97v7)('
+SECRET_KEY = secretkey()
 
 
 #Google_maps_api_key
-GOOGLE_MAPS_API_KEY = 'AIzaSyBiWk12oFdRVxWoI2FeuFq0w8lsuR2bP6Y'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
