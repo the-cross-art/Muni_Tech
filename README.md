@@ -5,9 +5,9 @@
 
 WebSite Link-https://munitechnova.herokuapp.com/
 
-Work Status-
-          Website Progress-95%
-          Android App Progree-25%
+Work Status-<br />
+          Website Progress-75%<br />
+          Android App Progree-25%<br />
 
 The whole procedure of complaining about a particular issue and then resolution of the same by the Municipality is quite hectic and complex. 
 In order to speed up this process and make things transparent we have developed our Web Application Muni-Tech.
