@@ -24,11 +24,11 @@ Enter the given Information.<br />
 Username : mangNOVA<br />
 Password : 1234<br />
 
-Steps requird to run the website in local machine-<br />
+Steps requird to run the website in local machine-<br /><br />
 step1-Create local Enviorment in Your Machine :<br />
-    python -m venv (env_name)<br />
+    python -m venv (env_name)<br /><br />
 Step2-Start virtual Enviornment<br />
-    (env_name)\Scripts\activate<br />
+    (env_name)\Scripts\activate<br /><br />
 Step3-<br />
     1. Install stable version
     Install:
