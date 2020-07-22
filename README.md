@@ -19,17 +19,17 @@ The spirit of self reliance and self help would be imbibed by the people hencefo
 
 WebSite Link-https://munitechnova.herokuapp.com/
 
-The app runs completely on Django surver hosted on herokuapp.To gain Admin Access
-Enter the given Information.
-Username : mangNOVA
-Password : 1234
+The app runs completely on Django surver hosted on herokuapp.<br />To gain Admin Access<br />
+Enter the given Information.<br />
+Username : mangNOVA<br />
+Password : 1234<br />
 
-Steps requird to run the website in local machine-
-step1-Create local Enviorment in Your Machine :
-    python -m venv (env_name)
-Step2-Start virtual Enviornment
-    (env_name)\Scripts\activate
-Step3-
+Steps requird to run the website in local machine-<br />
+step1-Create local Enviorment in Your Machine :<br />
+    python -m venv (env_name)<br />
+Step2-Start virtual Enviornment<br />
+    (env_name)\Scripts\activate<br />
+Step3-<br />
     1. Install stable version
     Install:
 
