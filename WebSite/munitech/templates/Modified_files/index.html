@@ -1,11 +1,19 @@
 <!DOCTYPE html>
+{% load static %}
+<!--
+Template Name: Muni_Tech
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
 <html lang="">
 <!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
 <head>
 <title>Muni_tech</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href=" {% static 'layout/styles/layout.css' %} " rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -16,9 +24,9 @@
     <!-- ################################################################################################ -->
     <div class="fl_left">
       <ul class="nospace">
-        <li><a href="index.html"><i class="fa fa-lg fa-home"></i></a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/index"><i class="fa fa-lg fa-home"></i></a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contentbox">Contact</a></li>
         <li><a href="#">Login</a></li>
         <li><a href="#">Register</a></li>
       </ul>
@@ -39,18 +47,18 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="index.html">Muni_Tech</a></h1>
+      <h1><a href="">Muni_Tech</a></h1>
     </div>
     <nav id="mainav" class="fl_right">
       <ul class="clear">
-        <li class="active"><a href="index.html">Home</a></li>
+        <li class="active"><a href="">Home</a></li>
         <!-- <li><a class="drop" href="#">Pages</a>
           <ul>
-            <li><a href="pages/gallery.html">Gallery</a></li>
-            <li><a href="pages/full-width.html">Full Width</a></li>
-            <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-            <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-            <li><a href="pages/basic-grid.html">Basic Grid</a></li>
+            <li><a href=" {% static 'pages/gallery.html' %} ">Gallery</a></li>
+            <li><a href=" {% static 'pages/full-width.html' %} ">Full Width</a></li>
+            <li><a href=" {% static 'pages/sidebar-left.html' %} ">Sidebar Left</a></li>
+            <li><a href=" {% static 'pages/sidebar-right.html' %} ">Sidebar Right</a></li>
+            <li><a href=" {% static 'pages/basic-grid.html' %} ">Basic Grid</a></li>
           </ul>
         </li> -->
         <!-- <li><a class="drop" href="#">Dropdown</a>
@@ -66,8 +74,8 @@
             <li><a href="#">Level 2</a></li>
           </ul>
         </li> -->
-        <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contentbox">Content Box</a></li>
         <!-- <li><a href="#">Link Text</a></li> -->
       </ul>
     </nav>
@@ -77,7 +85,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.jpg');">
+<div class="wrapper bgded overlay" style="background-image:url(' {% static 'images/01.jpg' %} ');">
   <div id="pageintro" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <article>
@@ -85,7 +93,7 @@
       <h3 class="heading">Welcome to Muni_Tech</h3>
       <footer>
         <ul class="nospace inline pushright">
-          <li><a class="btn" href="upload.html">Upload Image</a></li>
+          <li><a class="btn" href="/upload">Upload Image</a></li>
           <li><a class="btn inverse" href="#">Contact Us</a></li>
         </ul>
       </footer>
@@ -137,7 +145,7 @@
       </div>
       <ul class="nospace group overview">
         <li class="one_third">
-          <figure><a href="#"><img src="images/02.jpg" alt=""></a>
+          <figure><a href="#"><img src=" {% static 'images/02.jpg' %} " alt=""></a>
             <figcaption>
               <h6 class="heading">Aliquet non sapien in</h6>
               <p>Congue suscipit nulla aliquam fermentum ac justo eu tincidunt integer.</p>
@@ -145,7 +153,7 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a href="#"><img src="images/03.jpg" alt=""></a>
+          <figure><a href="#"><img src=" {% static 'images/03.jpg' %} " alt=""></a>
             <figcaption>
               <h6 class="heading">Eleifend lacus metus</h6>
               <p>Suscipit egestas vivamus at velit ultrices malesuada ex eu rutrum arcu.</p>
@@ -153,7 +161,7 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a href="#"><img src="images/04.jpg" alt=""></a>
+          <figure><a href="#"><img src=" {% static 'images/04.jpg' %} " alt=""></a>
             <figcaption>
               <h6 class="heading">Fusce facilisis congue</h6>
               <p>Sapien sit amet tempor nisl mollis sed sed tristique nunc pretium mi.</p>
@@ -170,7 +178,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/05.jpg');">
+<div class="wrapper bgded overlay" style="background-image:url(' {% static 'images/05.jpg' %} ');">
   <article class="hoc cta clear"> 
     <!-- ################################################################################################ -->
     <h6 class="three_quarter first">Keep calm and maintain the cleanliness...</h6>
@@ -191,7 +199,7 @@
     <ul class="nospace group btmspace-80">
       <li class="one_third first">
         <blockquote>Imperdiet libero ac sapien facilisis ultricies aliquam gravida ligula quis commodo interdum purus felis rutrum velit non tincidunt arcu orci eget nulla etiam laoreet volutpat mollis mauris</blockquote>
-        <figure class="clear"><img class="circle" src="images/demo/60x60.png" alt="">
+        <figure class="clear"><img class="circle" src=" {% static 'images/demo/60x60.png' %} " alt="">
           <figcaption>
             <h6 class="heading">John Doe</h6>
             <em>Consultant</em></figcaption>
@@ -199,7 +207,7 @@
       </li>
       <li class="one_third">
         <blockquote>Et tellus nibh nullam sit amet mauris consequat vehicula velit non aliquam erat maecenas egestas dui et velit viverra in tincidunt neque consectetur quisque metus arcu suscipit rutrum euismod</blockquote>
-        <figure class="clear"><img class="circle" src="images/demo/60x60.png" alt="">
+        <figure class="clear"><img class="circle" src=" {% static 'images/demo/60x60.png' %} " alt="">
           <figcaption>
             <h6 class="heading">Jane Doe</h6>
             <em>Director</em></figcaption>
@@ -207,7 +215,7 @@
       </li>
       <li class="one_third">
         <blockquote>Consequat venenatis vestibulum enim phasellus id molestie mi nec vulputate massa phasellus ut ligula hendrerit lobortis nibh ac laoreet sapien morbi id sagittis nulla vulputate fringilla felis</blockquote>
-        <figure class="clear"><img class="circle" src="images/demo/60x60.png" alt="">
+        <figure class="clear"><img class="circle" src=" {% static 'images/demo/60x60.png' %} " alt="">
           <figcaption>
             <h6 class="heading">June Doe</h6>
             <em>Marketing</em></figcaption>
@@ -229,14 +237,14 @@
       <p>Be smart, have a plan, than work as hard as you can</p>
     </figcaption>
     <ul class="nospace group">
-      <li class="one_quarter first"><a href="#"><img src="images/07.jpeg" alt=""></a></li>
-      <li class="one_quarter"><a href="#"><img src="images/08.jpeg" alt="" width="690" height="690"></a></li>
-      <li class="one_quarter"><a href="#"><img src="images/06.png" alt=""></a></li>
-      <li class="one_quarter"><a href="#"><img src="images/09.jfif" alt=""></a></li>
+      <li class="one_quarter first"><a href="#"><img src=" {% static 'images/07.jpeg' %} " alt=""></a></li>
+      <li class="one_quarter"><a href="#"><img src=" {% static 'images/08.jpeg' %} " alt="" width="690" height="690"></a></li>
+      <li class="one_quarter"><a href="#"><img src=" {% static 'images/06.png' %} " alt=""></a></li>
+      <li class="one_quarter"><a href="#"><img src=" {% static 'images/09.jfif' %} " alt=""></a></li>
     </ul>
     <br>
     <ul class="nospace group">
-      <li class="one_quarter first"><a href="#"><img src="images/10.jpg" alt=""></a></li>
+      <li class="one_quarter first"><a href="#"><img src=" {% static 'images/10.jpg' %} " alt=""></a></li>
     </ul>
     <!-- ################################################################################################ -->
   </figure>
@@ -245,7 +253,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Footer Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('images/bg.jpg');"> 
+<div class="bgded overlay" style="background-image:url(' {% static 'images/bg.jpg' %} ');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row4">
     <footer id="footer" class="hoc clear"> 
@@ -320,10 +328,10 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<a id="backtotop" href=" {% static '#top' %} "><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src=" {% static 'layout/scripts/jquery.min.js' %} "></script>
+<script src=" {% static 'layout/scripts/jquery.backtotop.js' %} "></script>
+<script src=" {% static 'layout/scripts/jquery.mobilemenu.js' %} "></script>
 </body>
 </html>
