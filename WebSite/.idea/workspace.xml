@@ -19,27 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ec32d94-ed23-4ca2-b44b-057ee07be9f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/munitech/basic/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/munitech/basic/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/basic/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/munitech/basic/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/basic/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/munitech/basic/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/basic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/munitech/basic/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/munitech/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/Screenshot_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/comming_soon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/comming_soon_5XbAD3h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/comming_soon_EkMfFEz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/comming_soon_IY6w7F5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/comming_soon_lbjDkz1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/comming_soon_vto7JAP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/comming_soon_zrCod88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/download.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/itworks.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/shinchan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/media/media/this.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/templates/Modified_files/contentbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/munitech/templates/Modified_files/contentbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/munitech/templates/Modified_files/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/munitech/templates/Modified_files/upload.html" afterDir="false" />
-    </list>
+    <list default="true" id="3ec32d94-ed23-4ca2-b44b-057ee07be9f2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1etR3mPeOLpEfaAOiblHhtpXCvi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,7 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Day2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Muni_Tech/WebSite" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -131,10 +111,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595168361307" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595398497265">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595491238249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595398497265" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595491238249" />
     <state width="1515" height="217" key="GridCell.Tab.0.bottom" timestamp="1595399910469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

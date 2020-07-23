@@ -19,26 +19,29 @@ def contentbox(request):
     return render(request, 'Modified_files/contentbox.html',{'writer': writer})
 
 def upload(request):
-    if request.method == 'POST':
-        name = request.POST.get('name')
-        #print(name)
-        address = request.POST.get('address')
-        complain = request.POST.get('complain')
-        #print("Files uploaded")
-        photo = request.FILES['image']
-        form = all_info_form(pic = photo,name=name,address=address,complain=complain)
-        form.save()
-        messages.success(request, 'Your Complaint has been sent.')
-        #x = smtplib.SMTP('smtp.gmail.com', 587)
-        #x.starttls()
-        #x.login('your mail id', 'password')
-        #message = "A complain is being registered"
-        #x.sendmail('shrutik0219@gmail.com', 'shrutik1720@gmail.com', message)
-        #print("Message sent")
+    try :
+        request.FILES['image']
+        if request.method == 'POST':
+            name = request.POST.get('name')
+            #print(name)
+            address = request.POST.get('address')
+            complain = request.POST.get('complain')
+            #print("Files uploaded")
+            photo = request.FILES['image']
+            form = all_info_form(pic = photo,name=name,address=address,complain=complain)
+            form.save()
+            return render(request, 'Modified_files/sent.html')
+            #messages.success(request, 'Your Complaint has been sent.')
+            #x = smtplib.SMTP('smtp.gmail.com', 587)
+            #x.starttls()
+            #x.login('your mail id', 'password')
+            #message = "A complain is being registered"
+            #x.sendmail('shrutik0219@gmail.com', 'shrutik1720@gmail.com', message)
+            #print("Message sent")
+    except:
+        messages.success(request,'Please attach a file.')
     return render(request,'Modified_files/upload.html')
 
-def success(request):
-    return render(request,'Modified_files/contentbox.html')
 
 def location(request):
     return render(request,'Modified_files/location.html')
