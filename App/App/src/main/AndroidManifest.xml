@@ -1,0 +1,83 @@
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.Munitech">
+	<uses-permission	android:name="android.permission.INTERNET"/>
+	<uses-permission	android:name="android.permission.VIBRATE"/>
+	<uses-permission	android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission	android:name="android.permission.CAMERA"/>
+	<uses-permission	android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission	android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission	android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission	android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<application
+		android:allowBackup="true"
+		android:label="Munitech"
+		android:icon="@drawable/app_icon"
+		android:largeHeap="true"
+		android:theme="@style/AppTheme">
+		<activity
+			android:name=".MainActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action	android:name="android.intent.action.MAIN"/>
+				<category	android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".WebviewActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".LocationActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".MapActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".HomeActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".AboutusActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".ImagesActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".TakepicActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".ProgressActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".SavedActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version"/>
+		<provider
+			android:authorities="com.Munitech.provider"
+			android:name="androidx.core.content.FileProvider"
+			android:exported="false"
+			android:grantUriPermissions="true">
+			<meta-data
+				android:name="android.support.FILE_PROVIDER_PATHS"
+				android:resource="@xml/provider_paths"/>
+		</provider>
+		<meta-data
+			android:name="com.google.android.geo.API_KEY"
+			android:value="@string/google_maps_key"/>
+		<uses-library
+			android:name="org.apache.http.legacy"
+			android:required="false"/>
+	</application>
+</manifest>
