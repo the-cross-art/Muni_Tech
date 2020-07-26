@@ -30,7 +30,7 @@ def upload(request):
             photo = request.FILES['image']
             form = all_info_form(pic = photo,name=name,address=address,complain=complain)
             form.save()
-            return render(request, 'Modified_files/sent.html')
+            messages.success(request, 'Your Compalin has been registered.')
             #messages.success(request, 'Your Complaint has been sent.')
             #x = smtplib.SMTP('smtp.gmail.com', 587)
             #x.starttls()
