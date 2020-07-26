@@ -1,61 +1,26 @@
-<!DOCTYPE html>
+{% extends "Modified_files/base.html" %}
 {% load static %}
 
-<html lang="">
-<head>
-<title>Muni_tech</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href=" {% static 'layout/styles/layout.css' %} " rel="stylesheet" type="text/css" media="all">
-</head>
-<body id="top">
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row0">
-  <div id="topbar" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="fl_left">
-      <ul class="nospace">
-        <li><a href="/index"><i class="fa fa-lg fa-home"></i></a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contentbox">Contact</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Register</a></li>
-      </ul>
-    </div>
-    <div class="fl_right">
-      <ul class="nospace">
-        <li><i class="fa fa-phone"></i> 8294218713</li>
-        <li><i class="fa fa-envelope-o"></i>Muni_Tech@gmail.com</li>
-      </ul>
-    </div>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
+{% block content-head %}
+<!-- Add Aditional Head Contents -->
+{% endblock %}
+
+{% block content-body %}
 <div class="wrapper row1">
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="">Muni_Tech</a></h1>
+      <h1><a href="/index">Muni_Tech</a></h1>
     </div>
     <nav id="mainav" class="fl_right">
       <ul class="clear">
-        <li class="active"><a href="">Home</a></li>
         <li><a href="/about">About Us</a></li>
         <li><a href="/contentbox">Content Box</a></li>
-        <!-- <li><a href="#">Link Text</a></li> -->
       </ul>
     </nav>
     <!-- ################################################################################################ -->
   </header>
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 <div class="wrapper bgded overlay" style="background-image:url(' {% static 'images/01.jpg' %} ');">
   <div id="pageintro" class="hoc clear"> 
     <!-- ################################################################################################ -->
@@ -64,8 +29,8 @@
       <h3 class="heading">Welcome to Muni_Tech</h3>
       <footer>
         <ul class="nospace inline pushright">
-          <li><a class="btn" href="/upload">Upload Image</a></li>
-          <li><a class="btn inverse" href="#">Contact Us</a></li>
+          <h3>Need To Lodge A Request Click The Button Below</h3><br>
+          <li><a class="btn" href="/upload">Request A Clean-Up</a></li>
         </ul>
       </footer>
     </article>
@@ -118,8 +83,8 @@
         <li class="one_third">
           <figure><a href="#"><img src=" {% static 'images/02.jpg' %} " alt=""></a>
             <figcaption>
-              <h6 class="heading">Unauthorizd Dump Place</h6>
-              <p>Cleaned....</p>
+              <h6 class="heading">Unauthorized Dump placce</h6>
+              <p>Cleaned...</p>
             </figcaption>
           </figure>
         </li>
@@ -127,7 +92,7 @@
           <figure><a href="#"><img src=" {% static 'images/03.jpg' %} " alt=""></a>
             <figcaption>
               <h6 class="heading">Local Streets</h6>
-              <p>Cleaned....</p>
+              <p>Cleaned...</p>
             </figcaption>
           </figure>
         </li>
@@ -135,7 +100,7 @@
           <figure><a href="#"><img src=" {% static 'images/04.jpg' %} " alt=""></a>
             <figcaption>
               <h6 class="heading">Cleaning Cities</h6>
-              <p>Cleaned....</p>
+              <p>Cleaned...</p>
             </figcaption>
           </figure>
         </li>
@@ -158,14 +123,14 @@
   </article>
 </div>
 <!-- ################################################################################################ -->
-
+<!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
   <figure class="hoc container clear clients"> 
     <!-- ################################################################################################ -->
     <figcaption class="sectiontitle">
       <h6 class="heading">Meet Our Team</h6>
-      <p>Be smart, have a plan, than work as hard as you can</p>
+      <p>Be smart, have a plan, then work as hard as you can</p>
     </figcaption>
     <ul class="nospace group">
       <li class="one_quarter first"><a href="#"><img src=" {% static 'images/07.jpg' %} " alt="" width="690" height="200"></a></li>
@@ -180,74 +145,6 @@
     <!-- ################################################################################################ -->
   </figure>
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- Footer Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url(' {% static 'images/bg.jpg' %} ');"> 
-  <!-- ################################################################################################ -->
-  <div class="wrapper row4">
-    <footer id="footer" class="hoc clear"> 
-      <!-- ################################################################################################ -->
-      <div class="one_quarter first">
-        <h6 class="heading">Contact Us</h6>
-        <ul class="nospace btmspace-30 linklist contact">
-          <li><i class="fa fa-map-marker"></i>
-            <address>
-            BIT &amp; Sindri, Dhanbad, 825301/Zip
-            </address>
-          </li>
-          <li><i class="fa fa-phone"></i>894218713</li>
-          <li><i class="fa fa-envelope-o"></i> munitech@gmail.com</li>
-        </ul>
-        <ul class="faico clear">
-          <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-      </div>
-      <div class="one_quarter">
-        
-      </div>
-      <div class="one_quarter">
-        
-      </div>
-      <div class="one_quarter">
-        <h6 class="heading">Send Us Mail</h6>
-        <p class="nospace btmspace-15"></p>
-        <form method="post" action="#">
-          <fieldset>
-            <legend>Newsletter:</legend>
-            <input class="btmspace-15" type="text" value="" placeholder="Name">
-            <input class="btmspace-15" type="text" value="" placeholder="Email">
-            <button type="submit" value="submit">Submit</button>
-          </fieldset>
-        </form>
-      </div>
-      <!-- ################################################################################################ -->
-    </footer>
-  </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <div class="wrapper row5">
-    <div id="copyright" class="hoc clear"> 
-      <!-- ################################################################################################ -->
-      <p class="fl_left">Copyright &copy; 2020 - All Rights Reserved - <a href="#">Muni_Tech</a></p>
-      <!-- ################################################################################################ -->
-    </div>
-  </div>
-  <!-- ################################################################################################ -->
-</div>
-<!-- End Footer Background Image Wrapper -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<a id="backtotop" href="#"><i class="fa fa-chevron-up"></i></a>
-<!-- JAVASCRIPTS -->
-<script src=" {% static 'layout/scripts/jquery.min.js' %} "></script>
-<script src=" {% static 'layout/scripts/jquery.backtotop.js' %} "></script>
-<script src=" {% static 'layout/scripts/jquery.mobilemenu.js' %} "></script>
-</body>
-</html>
+
+
+{% endblock %}

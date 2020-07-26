@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <!-- HEAD CONTENTS -->
+    <head>
+        <title>Muni_tech</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- BOOTSTRAP CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="{% static 'layout/styles/layout.css' %}">
+        {% block content-head %}{% endblock content-head %}
+    </head>
+
+    <!-- BODY CONTENTS -->
+    <body id="top">
+        <div class="wrapper row0">
+            <div id="topbar" class="hoc clear"> 
+              <!-- ################################################################################################ -->
+              <div class="fl_left">
+                <ul class="nospace">
+                  <li><a href="/index"><i class="fa fa-lg fa-home"></i></a></li>
+                  <li><a href="/about">About Us</a></li>
+                  <li><a href="#contact-us">Contact US</a></li>
+                </ul>
+              </div>
+              <div class="fl_right">
+                <ul class="nospace">
+                  <li><i class="fa fa-phone"></i> 8294218713</li>
+                  <li><i class="fa fa-envelope-o"></i>Muni_Tech@gmail.com</li>
+                </ul>
+              </div>
+              <!-- ################################################################################################ -->
+            </div>
+          </div>
+
+    {% block content-body %}{% endblock content-body %}
+    <!-- JAVASCRIPTS -->
+        <script src=" {% static 'layout/scripts/jquery.min.js' %} "></script>
+        <script src=" {% static 'layout/scripts/jquery.backtotop.js' %} "></script>
+        <script src=" {% static 'layout/scripts/jquery.mobilemenu.js' %} "></script>
+    </body>
+
+    <!-- FOOTER CONTENTS -->
+    <!-- Footer Background Image Wrapper -->
+        <div class="bgded overlay" style="background-image:url(' {% static 'images/bg.jpg' %} ');"> 
+    <!-- ################################################################################################ -->
+    <footer id="footer" class="hoc clear"> 
+        <!-- ################################################################################################ -->
+        <div class="one_quarter first">
+          <h6 class="heading" id="contact-us">Contact Us</h6>
+          <ul class="nospace btmspace-30 linklist contact">
+            <li><i class="fa fa-map-marker"></i>
+              <address>
+              BIT &amp; Sindri, Dhanbad, 825301/Zip
+              </address>
+            </li>
+            <li><i class="fa fa-phone"></i>894218713</li>
+            <li><i class="fa fa-envelope-o"></i> munitech@gmail.com</li>
+          </ul>
+          <ul class="faico clear">
+            <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="one_quarter">
+          <!-- <h6 class="heading">Augue sociis natoque</h6>
+          <ul class="nospace linklist">
+            <li><a href="#">Porta lacinia est velit</a></li>
+            <li><a href="#">Sollicitudin nisl eu</a></li>
+            <li><a href="#">Tincidunt turpis ante</a></li>
+            <li><a href="#">Lobortis nisl fusce</a></li>
+            <li><a href="#">Purus nisi faucibus et est</a></li>
+          </ul> -->
+        </div>
+        <div class="one_quarter">
+          <!-- <h6 class="heading">Penatibus et magnis</h6>
+          <ul class="nospace linklist">
+            <li><a href="#">Quis blandit dignissim</a></li>
+            <li><a href="#">Lacus vestibulum porta</a></li>
+            <li><a href="#">Quam nec mollis vulputate</a></li>
+            <li><a href="#">Mauris aliquet cursus</a></li>
+            <li><a href="#">Nisl duis sed rhoncus</a></li>
+          </ul> -->
+        </div>
+        <div class="one_quarter">
+          <h6 class="heading">Send Us Mail</h6>
+          <p class="nospace btmspace-15"></p>
+          <form method="#" action="#">
+            <fieldset>
+              <legend>Newsletter:</legend>
+              <input class="btmspace-15" type="text" value="" placeholder="Name">
+              <input class="btmspace-15" type="text" value="" placeholder="Email">
+              <button type="submit" value="submit">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+        <!-- ################################################################################################ -->
+    </footer>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row5">
+      <div id="copyright" class="hoc clear"> 
+        <!-- ################################################################################################ -->
+        <p class="fl_left">Copyright &copy; 2020 - All Rights Reserved - <a href="#">Muni_Tech</a></p>
+        <!-- <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p> -->
+        <!-- ################################################################################################ -->
+      </div>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- End Footer Background Image Wrapper -->
+</html>
