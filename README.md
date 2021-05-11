@@ -1,17 +1,14 @@
-# Muni_Tech
-
-
 ![ezgif com-optimize](https://user-images.githubusercontent.com/63959831/88054917-c41ef300-cb7b-11ea-80ae-f660e9b98347.gif)
 <br /><br />
-See Our Explanatory Video-https://drive.google.com/file/d/1Qyrb-48Z66u1RqV85uib4WqcHATaAYPi/view
-<br />
-See our Website Explanatory Video-https://drive.google.com/file/d/1SYnOW0OcR2NYtsOtdAogrACbv1mmjLnh/view<br />
-Application Apk bundle Link-https://docs.google.com/uc?export=download&id=1G71ETONKxaxQoCJoykRUK6kXDg4BfV37 <br />
-WebSite Link-https://munitechnova.herokuapp.com/
+# Muni_Tech
 
-Work Status-<br />
-          Website Progress-100%<br />
-          Android App Progree-100%<br />
+<p align="center">
+<img src="https://img.shields.io/badge/language-HTML-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-CSS-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-BootStrap-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-Django-blue?style=for-the-badge">  
+ </p>
+ 
 
 The whole procedure of complaining about a particular issue and then resolution of the same by the Municipality is quite hectic and complex. 
 In order to speed up this process and make things transparent we have developed our Web Application Muni-Tech.
@@ -23,8 +20,59 @@ The spirit of self reliance and self help would be imbibed by the people hencefo
 Further Devlopment Include <br />
 Any individual can start a campaign regarding cleaning local places. Local Volunteers along with municipality can decide a fixed date with the help of the app and help cleaning the places which not only led to the cleaning of the environment but in a people unified Atamnirbhar.<br />
 
+See Our Explanatory Video-https://drive.google.com/file/d/1Qyrb-48Z66u1RqV85uib4WqcHATaAYPi/view
+<br />
+See our Website Explanatory Video-https://drive.google.com/file/d/1SYnOW0OcR2NYtsOtdAogrACbv1mmjLnh/view<br />
+Application Apk bundle Link-https://docs.google.com/uc?export=download&id=1G71ETONKxaxQoCJoykRUK6kXDg4BfV37 <br />
+WebSite Link-https://munitechnova.herokuapp.com/
+
+Work Status-<br />
+          Website Progress-100%<br />
+          Android App Progree-100%<br />
+
+[![License](https://img.shields.io/badge/license-MIT-%2397ca00.svg)](https://github.com/the-cross-art/Muni_Tech)
+![UI Library shield](https://img.shields.io/badge/LibraryType-UI-blue.svg)
+![Sample App shield](https://img.shields.io/badge/App-Sample-green.svg)
+![Artifact badge local, or jcenter or clonerepo](https://img.shields.io/badge/Artifact-JCenter-green.svg)
+![Minimum API Level](https://img.shields.io/badge/Min%20API%20Level-21-green)
+![Minimum SDK Level](https://img.shields.io/badge/Min%20SDK%20Level-17-orange)
+![GitHub repo size](https://img.shields.io/github/repo-size/the-cross-art/Muni_Tech)
+
+
 WebSite Link-https://munitechnova.herokuapp.com/<br />
 Application Apk bundle Link-https://docs.google.com/uc?export=download&id=1G71ETONKxaxQoCJoykRUK6kXDg4BfV37 <br />
+
+
+## Features 🚀
+
+- Connect Direct to Municipality .
+- Get detailed decription of all the Places.
+- Get details about your Complaint.
+- Android Application avaliable.
+- Start a campaign regarding cleaning local places.
+- Find Local Volunteers for the campagin.
+
+## Built With 🛠
+
+- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
+  - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying database changes.
+  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
+  - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) - Generates a binding class for each XML layout file present in that module and allows you to more easily write code that interacts with views.
+  - [Room](https://developer.android.com/topic/libraries/architecture/room) - SQLite object mapping library.
+  - [Paging 3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview) - The Paging library helps you load and display pages of data from a larger dataset from local storage or over network. 
+- [Navigation Graph](https://developer.android.com/guide/navigation/navigation-design-graph) - The Navigation component uses a navigation graph to manage your app's navigation.  
+- [Dagger 2](https://dagger.dev/) - Dependency Injection Framework
+- [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
+- [Coil](https://github.com/coil-kt/coil/) - An image loading library for Android backed by Kotlin Coroutines.
+- [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
+
+## Download 📥
+- Download latest APK from [here](https://docs.google.com/uc?export=download&id=1G71ETONKxaxQoCJoykRUK6kXDg4BfV37)
+
+## Screenshots 📷 
+![Screenshot (255)](https://user-images.githubusercontent.com/63959831/117872125-ef660080-b2bb-11eb-891f-412d7ca720c5.png)
+![Screenshot (256)](https://user-images.githubusercontent.com/63959831/117872134-f2f98780-b2bb-11eb-9615-fe64332e3330.png)
+
 
 Instruction and configuration to use App-<br />
 Munitech app<br />
