@@ -1,8 +1,3 @@
-
-![ezgif com-optimize](https://user-images.githubusercontent.com/63959831/88054917-c41ef300-cb7b-11ea-80ae-f660e9b98347.gif)
-<br /><br />
-
-
 <p align="center">
 
 <img src="https://img.shields.io/badge/language-HTML-blue?style=for-the-badge">
@@ -11,6 +6,12 @@
 <img src="https://img.shields.io/badge/language-Django-blue?style=for-the-badge"> 
 <img src="https://img.shields.io/badge/language-JAVA-blue?style=for-the-badge">
  </p>
+ 
+![ezgif com-optimize](https://user-images.githubusercontent.com/63959831/88054917-c41ef300-cb7b-11ea-80ae-f660e9b98347.gif)
+<br /><br />
+
+
+
 
  # Muni_Tech
  
