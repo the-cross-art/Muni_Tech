@@ -1,7 +1,6 @@
-<p align="center">
+
 ![ezgif com-optimize](https://user-images.githubusercontent.com/63959831/88054917-c41ef300-cb7b-11ea-80ae-f660e9b98347.gif)
 <br /><br />
- </p>
 
 
 <p align="center">
