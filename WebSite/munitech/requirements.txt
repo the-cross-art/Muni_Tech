@@ -19,7 +19,7 @@ isort==4.3.21
 lazy-object-proxy==1.4.3
 maxminddb==1.5.4
 mccabe==0.6.1
-Pillow==8.2.0
+Pillow==8.3.2
 psycopg2==2.8.5
 pylint==2.5.3
 pytz==2020.1
